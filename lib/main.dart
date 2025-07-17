@@ -1,3 +1,4 @@
+import 'package:flipkart_order/widgets/order_sucess_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      title: "Order Sucess Ui",
+      debugShowCheckedModeBanner: false,
+      home: OrderSucessPage(),
+    );
   }
 }
